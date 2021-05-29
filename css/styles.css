@@ -105,6 +105,14 @@ body {
 .contacs-nav .link:focus { 
     color: #2196F3;
 }
+.item.current::after{
+    content: "";
+    display: block;
+
+    height: 4px;
+    background: #2196F3;
+    border-radius: 2px;
+}
 .site-nav .link.current {
     color: #2196F3;
 } 
